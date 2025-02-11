@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Projetos</title>
+    <link rel="shortcut icon" href="awesome-face-meme-yellow-emoticon-6pk5bl1preqjyuvs.png" type="image/x-icon">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .projects-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            text-align: center
+        }
+
+        .project-card {
+            background: #b74b4b00;
+            border-radius: 20px;
+            width: 600px; /* Reduzido o tamanho */
+            padding: 100px; /* Ajustado para se adequar ao novo tamanho */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            font-size: ;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #b74b4b;
+        }
+
+        .project-card h3 {
+            color: #b74b4b;
+            font-size: 40px; /* Ajustado para o novo tamanho */
+            margin-bottom: 20px;
+        }
+
+        .project-card .icon {
+            font-size: 3rem; /* Ajustado para o novo tamanho */
+            color: #b74b4b;
+            margin-bottom: 20px;
+        }
+
+        .project-card p {
+            color: white;
+            font-size: 1rem; /* Ajustado para o novo tamanho */
+            line-height: 1.5;
+            font-size: 20px;
+        }
+
+        .project-card .buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        .project-card .buttons a {
+            background-color: #b74b4b;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        .project-card .buttons a:hover {
+            background-color: #9b3a3a;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="Projetos" class="logo">Rian - projetos</a>
+
+        <nav>
+            <a href="index.html" >Inicio</a>
+            <a href="projetos.html" class="active">Projetos</a>
+        </nav>
+    </header>
+
+    <section class="projects-container">
+        <!-- Projeto SiroxHosting -->
+        <div class="project-card">
+            <div class="icon">
+                <i class="fas fa-cloud"></i>
+            </div>
+            <h3>SiroxHosting</h3>
+            <p>Hospedagem de alta qualidade para seus projetos online. Conheça mais!</p>
+            <div class="buttons">
+                <a href="https://discord.com/invite/7R5rh8dXE4" target="_blank">
+                    <i class="fab fa-discord"></i> Discord
+                </a>
+                <a href="https://sirox.store" target="_blank">
+                    <i class="fas fa-globe"></i> Site
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
